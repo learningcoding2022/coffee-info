@@ -3,10 +3,6 @@
 /***MOBILE STYLES**********************************************/
 
 /*Header*/
-figure {
-    margin: 0;
-  }
-
 header, 
   footer {
     background-color: black;
@@ -29,11 +25,12 @@ header,
   }
   
   header figure {
-    width: 60%;
+    width: 20%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    margin: 0;
   }
   
   .header-divider {
@@ -44,7 +41,7 @@ header,
   }
   
   header nav {
-    width: 60%;
+    width: 90%;
     font-size: 1.125em;
     font-weight: 700;
     text-transform: uppercase;
@@ -65,10 +62,19 @@ header,
     font-size: 1.125em;
   }
 
+  header nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+
   img {
     width: 50px;
     height: auto;
     color: white;
+  }
+
+  .image-title {
+    display: flex;
   }
 
   /*Section*/
@@ -76,4 +82,10 @@ header,
   .section-container img {
     width:300px;
     height: auto;
+  }
+
+  /* Header Fonts */
+
+  h1 {
+    color: white;
   }
