@@ -1,29 +1,79 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
-/* reset styles **********************************************/
-* {
-  color: inherit;
-  margin: 0;
-}
-
-body {
-  font-family: Poppins;
-  /*padding: 0px 20px;*/
-  margin: unset;
-}
 
 /***MOBILE STYLES**********************************************/
 
-header figure {
+/*Header*/
+figure {
+    margin: 0;
+  }
+
+header, 
+  footer {
+    background-color: #dbbb9c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+  }
+  
+  header {
+    padding: 15px 0;
+  }
+  
+  header .content-wrapper {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+  }
+  
+  header figure {
     width: 60%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
-}
+  }
+  
+  .header-divider {
+    background-color: #3a3a3a;
+    width: 100%;
+    margin: 10px 0 20px 0;
+    height: 1px; 
+  }
+  
+  header nav {
+    width: 60%;
+    font-size: 1.125em;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row wrap;
+  }
+  
+  header nav ul {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding-left: 0;
+  }
+  
+  header nav ul li {
+    font-size: 1.125em;
+  }
 
+  img {
+    width: 50px;
+    height: auto;
+    color: white;
+  }
 
+  /*Section*/
 
-
-figure {
-    margin: 0;
+  .section-container img {
+    width:300px;
+    height: auto;
   }
