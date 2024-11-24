@@ -46,13 +46,17 @@ header,
     margin: 0;
   }
   
-  .header-divider {
+  /* .header-divider {
     background-color: black;
     width: 100%;
     margin: 10px 0 20px 0;
     height: 1px; 
-  }
+  } */
   
+  .header-divider {
+    width: 90%;
+  }
+
   header nav {
     width: 100%;
     font-size: 1.125em;
@@ -66,13 +70,14 @@ header,
   
   header nav ul {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 100%;
     padding-left: 0;
   }
   
   header nav ul li {
     font-size: 1.125em;
+    list-style-type: none;
   }
 
   header nav ul li a {
@@ -200,4 +205,38 @@ header,
     color: white;
     font-family: 'Poppins', Helvetica, Arial, sans-serif;
     font-size: 16px;
+  }
+
+  /***DESKTOP STYLES**********************************************/
+  @media only screen and (min-width: 1200px) {
+    /*Desktop Styles here*/
+
+header .content-wrapper {
+    width: 90%;
+}
+
+.image-title {
+    width: 45%; 
+    justify-content: flex-start;   
+}
+
+ .header-divider {
+    width: 45%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav {
+    width: 45%;
+}
+
+.section-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.section-container h1 {
+    width: 50%;
+}
+
   }
