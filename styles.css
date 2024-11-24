@@ -100,6 +100,33 @@ header,
     height: auto;
   }
 
+  .hot-coffee {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    list-style-type: none;
+  }
+
+    .iced-coffee {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    list-style-type: none;
+  }
+
+  #data-list {
+    list-style-type: none;
+    padding: 0px;
+  }
+
+  #data-list-2 {
+    list-style-type: none;
+    padding: 0px;
+  }
+
+
   /* Fonts */
 
   h1 {
@@ -112,6 +139,14 @@ header,
     text-align: center;
     padding-top: 50px;
     font-size: 25px;
+  }
+
+  .hot-coffee h1 {
+    color: black;
+  }
+
+  .iced-coffee h1 {
+    color: black;
   }
 
   p {
