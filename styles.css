@@ -1,6 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
 
 /***MOBILE STYLES**********************************************/
+/*General Styles*/
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column; /* Stack header, main, and footer vertically */
+}
+
+main {
+    flex: 1;
+}
+
+
 
 /*Header*/
 header, 
