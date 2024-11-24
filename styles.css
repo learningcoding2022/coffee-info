@@ -207,12 +207,14 @@ header,
     font-size: 16px;
   }
 
-  /***DESKTOP STYLES**********************************************/
-  @media only screen and (min-width: 1200px) {
-    /*Desktop Styles here*/
+/***DESKTOP STYLES**********************************************/
+@media only screen and (min-width: 1200px) {
+/*Desktop Styles here*/
 
+/*MAIN PAGE*/
 header .content-wrapper {
     width: 90%;
+    flex-flow: nowrap;
 }
 
 .image-title {
@@ -238,5 +240,12 @@ header nav {
 .section-container h1 {
     width: 50%;
 }
+
+p {
+    width: 100%;
+}
+
+/*HOT COFFEE PAGE*/
+
 
   }
