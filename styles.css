@@ -170,4 +170,21 @@ header,
     font-family: 'Open Sans', sans-serif;
   }
 
+  /* Footer */
 
+  .footer-content {
+    display: flex;
+    text-align: center;
+  }
+
+  footer h4 {
+    color: white;
+    font-family: 'Poppins', Helvetica, Arial, sans-serif;
+  }
+
+  footer p {
+    padding-top: 0px;
+    color: white;
+    font-family: 'Poppins', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+  }
