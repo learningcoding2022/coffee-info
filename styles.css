@@ -16,13 +16,22 @@ main {
 
 
 /*Header*/
-header, 
-  footer {
+header {
     background-color: black;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+  }
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    background: url('./assets/images/beans.jpg');
+    background-size: cover;
+    background-position: center;
   }
   
   header {
