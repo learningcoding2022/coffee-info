@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: https://learningcoding2022.github.io/news-homepage/
+- Solution URL: https://learningcoding2022.github.io/coffee-info/
 
 ## My process
 
